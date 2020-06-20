@@ -16,6 +16,9 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ciki_ffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ciki_ffTests.m */; };
+		3A66CE85ACB84A12B2AA0117 /* ff_bd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05A590A07D6541578BBFBEB3 /* ff_bd.ttf */; };
+		3FD1E4D81B164D48A3CB0DCC /* ff_rg_it.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A4407A024F394C5F868CD13D /* ff_rg_it.ttf */; };
+		F1C19184D9AA4667BCC37745 /* ff_rg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DC5385C9D764A60B722851F /* ff_rg.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		2D02E4901E0B4A5D006451C7 /* ciki_ff-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ciki_ff-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		05A590A07D6541578BBFBEB3 /* ff_bd.ttf */ = {isa = PBXFileReference; name = "ff_bd.ttf"; path = "../assets/fonts/ff_bd.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A4407A024F394C5F868CD13D /* ff_rg_it.ttf */ = {isa = PBXFileReference; name = "ff_rg_it.ttf"; path = "../assets/fonts/ff_rg_it.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8DC5385C9D764A60B722851F /* ff_rg.ttf */ = {isa = PBXFileReference; name = "ff_rg.ttf"; path = "../assets/fonts/ff_rg.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 				00E356EF1AD99517003FC87E /* ciki_ffTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				F1DD0B9C24EC4378BD49801D /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,6 +163,17 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		F1DD0B9C24EC4378BD49801D /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				05A590A07D6541578BBFBEB3 /* ff_bd.ttf */,
+				A4407A024F394C5F868CD13D /* ff_rg_it.ttf */,
+				8DC5385C9D764A60B722851F /* ff_rg.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -295,6 +313,9 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				3A66CE85ACB84A12B2AA0117 /* ff_bd.ttf in Resources */,
+				3FD1E4D81B164D48A3CB0DCC /* ff_rg_it.ttf in Resources */,
+				F1C19184D9AA4667BCC37745 /* ff_rg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
