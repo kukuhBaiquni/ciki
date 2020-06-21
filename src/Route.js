@@ -4,6 +4,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import Login from "./pages/stack/Login";
 import Home from "./pages/stack/Home";
 import Profile from "./pages/stack/Profile";
+import Register from "./pages/stack/Register";
 import Header from "./component/Header";
 
 const Stack = createStackNavigator();
@@ -17,6 +18,14 @@ const RootStack = () => {
         </Stack.Navigator>
     );
 };
+
+const Independent = () => {
+    return (
+        <Stack.Navigator headerMode="none">
+            <Stack.Screen name="Register" component={Register} />
+        </Stack.Navigator>
+    )
+}
 
 const stackProps = {
     options: {
@@ -36,4 +45,4 @@ const stackProps = {
     }
 };
 
-export default RootStack;
+export default Independent;
