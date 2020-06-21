@@ -1,4 +1,4 @@
-export const font = {
+const Font = {
     regular: {
         fontFamily: "ff_rg",
         fontWeight: "normal"
@@ -12,3 +12,5 @@ export const font = {
         fontWeight: "normal",
     }
 };
+
+export default Font;
