@@ -43,14 +43,12 @@ const Style = StyleSheet.create({
         ...Font.bold,
         fontSize: 28,
         color: Color.primary,
-        letterSpacing: 1,
         marginBottom: 15
     },
     form_label: {
         ...Font.regular,
         color: Color.primary,
         fontSize: 18,
-        letterSpacing: 1
     },
     form_input: {
         backgroundColor: Color.pure_white,
@@ -62,7 +60,6 @@ const Style = StyleSheet.create({
         paddingLeft: 10,
         paddingRight: 10,
         ...Font.regular,
-        letterSpacing: 1,
         fontSize: 16,
         marginBottom: 5,
         color: Color.primary

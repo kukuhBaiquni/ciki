@@ -1,14 +1,14 @@
 const Font = {
     regular: {
-        fontFamily: "ff_rg",
+        fontFamily: "Roboto-Regular",
         fontWeight: "normal"
     },
     italic: {
-        fontFamily: "ff_rg_it",
+        fontFamily: "Roboto-Italic",
         fontWeight: "normal",
     },
     bold: {
-        fontFamily: "ff_bd",
+        fontFamily: "Roboto-Bold",
         fontWeight: "normal",
     }
 };
