@@ -43,25 +43,27 @@ const Style = StyleSheet.create({
         ...Font.bold,
         fontSize: 28,
         color: Color.primary,
-        marginBottom: 15
+        marginBottom: 15,
+        textTransform: "uppercase"
     },
     form_label: {
         ...Font.regular,
         color: Color.primary,
-        fontSize: 18,
+        fontSize: 14,
+        textTransform: "uppercase"
     },
     form_input: {
         backgroundColor: Color.pure_white,
-        marginTop: 5,
-        padding: 5,
+        marginTop: 3,
+        padding: 2,
         borderWidth: 1,
         borderColor: Color.primary,
         borderRadius: 5,
         paddingLeft: 10,
         paddingRight: 10,
         ...Font.regular,
-        fontSize: 16,
-        marginBottom: 5,
+        fontSize: 14,
+        marginBottom: 8,
         color: Color.primary
     }
 });

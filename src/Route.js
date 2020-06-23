@@ -45,4 +45,4 @@ const stackProps = {
     }
 };
 
-export default Independent;
+export default RootStack;
