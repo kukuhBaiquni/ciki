@@ -14,58 +14,80 @@ const Style = StyleSheet.create({
         backgroundColor: "white",
         position: "relative",
         display: "flex",
-        justifyContent: "center",
         alignItems: "center",
-        paddingTop: 100
+        paddingTop: 0,
+        backgroundColor: Color.pure_white
     },
-    background_fluid: {
-        width: SCREEN_WIDTH,
-        height: SCREEN_HEIGHT,
-        position: "absolute",
-        top: -20,
-        left: 0
+    page_title_wrapper: {
+        width: SCREEN_WIDTH * 0.8,
+        marginTop: 25,
+        marginBottom: 15,
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center"
+    },
+    page_title_text: {
+        fontSize: 30,
+        ...Font.bold,
+        color: Color.pure_white
     },
     logo: {
-        width: 100,
-        height: 100,
-        position: "absolute",
-        top: 60
+        width: 70,
+        height: 70
     },
     form_wrapper: {
         width: SCREEN_WIDTH * 0.8,
         backgroundColor: Color.pure_white,
-        elevation: 15,
-        height: 400,
-        borderRadius: 10,
-        padding: 20
-    },
-    form_title: {
-        ...Font.bold,
-        fontSize: 28,
-        color: Color.primary,
-        marginBottom: 15,
-        textTransform: "uppercase"
+        elevation: 5,
+        borderRadius: 5,
+        padding: 20,
+        paddingTop: 30,
+        paddingBottom: 30
     },
     form_label: {
-        ...Font.regular,
+        ...Font.bold,
         color: Color.primary,
         fontSize: 14,
         textTransform: "uppercase"
     },
     form_input: {
         backgroundColor: Color.pure_white,
-        marginTop: 3,
         padding: 2,
-        borderWidth: 1,
-        borderColor: Color.primary,
-        borderRadius: 5,
-        paddingLeft: 10,
-        paddingRight: 10,
+        borderBottomWidth: 1,
+        borderBottomColor: Color.pure_black,
+        paddingLeft: 0,
+        paddingRight: 0,
         ...Font.regular,
         fontSize: 14,
-        marginBottom: 8,
-        color: Color.primary
+        marginBottom: 14,
+        color: Color.pure_black
+    },
+    submit_button: {
+        width: "100%",
+        height: 50,
+        backgroundColor: Color.primary,
+        borderRadius: 3,
+        display: "flex",
+        justifyContent: "center",
+        marginTop: 20,
+        alignItems: "center"
+    },
+    submit_button_text: {
+        ...Font.bold,
+        fontSize: 17,
+        color: Color.pure_white
     }
 });
+
+export const BackgroundStyle = StyleSheet.create({
+    style: {
+        width: SCREEN_WIDTH,
+        position: "absolute",
+        top: 0,
+        left: 0,
+        zIndex: -1
+    }
+})
 
 export default Style;
