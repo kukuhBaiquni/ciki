@@ -1,8 +1,9 @@
 import React from "react";
 import { View, Text, StyleSheet, Image, TextInput, ScrollView, KeyboardAvoidingView, TouchableOpacity } from "react-native";
 import * as AssetImage from "../../../common/assetImageUri";
-import Style, { BackgroundStyle } from "./style";
+import Style, { BackgroundStyle, GoogleStyle } from "./style";
 import Background from "../../../../assets/images/svg/coloring";
+import Google from "../../../../assets/images/svg/google-icon";
 import { SvgXml } from "react-native-svg";
 
 const Register = (props) => {
@@ -29,6 +30,11 @@ const Register = (props) => {
                     </TouchableOpacity>
                 </ScrollView>
             </View>
+            <Text style={Style.have_account}>Sudah punya akun? <Text style={Style.purple}>Masuk disini</Text></Text>
+            <TouchableOpacity style={Style.register_via_google}>
+                <SvgXml xml={Google} style={GoogleStyle.style} />
+                <Text style={Style.register_via_google_text}>Daftar dengan Google</Text>
+            </TouchableOpacity>
         </KeyboardAvoidingView>
     )
 };

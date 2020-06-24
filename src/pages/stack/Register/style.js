@@ -56,8 +56,8 @@ const Style = StyleSheet.create({
         padding: 2,
         borderBottomWidth: 1,
         borderBottomColor: Color.pure_black,
-        paddingLeft: 0,
-        paddingRight: 0,
+        paddingLeft: 5,
+        paddingRight: 5,
         ...Font.regular,
         fontSize: 14,
         marginBottom: 14,
@@ -77,6 +77,33 @@ const Style = StyleSheet.create({
         ...Font.bold,
         fontSize: 17,
         color: Color.pure_white
+    },
+    have_account: {
+        ...Font.regular,
+        fontSize: 14,
+        marginTop: 20,
+        color: Color.black_none
+    },
+    purple: {
+        color: Color.primary,
+        textDecorationLine: "underline"
+    },
+    register_via_google: {
+        height: 45,
+        width: SCREEN_WIDTH * 0.8,
+        borderWidth: 1,
+        borderColor: Color.primary,
+        display: "flex",
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 15,
+        borderRadius: 5
+    },
+    register_via_google_text: {
+        ...Font.bold,
+        fontSize: 16,
+        color: Color.black_none
     }
 });
 
@@ -87,6 +114,13 @@ export const BackgroundStyle = StyleSheet.create({
         top: 0,
         left: 0,
         zIndex: -1
+    }
+});
+
+export const GoogleStyle = StyleSheet.create({
+    style: {
+        width: "100%",
+        marginRight: 10
     }
 })
 
