@@ -22,7 +22,7 @@ const RootStack = () => {
 const Independent = () => {
     return (
         <Stack.Navigator headerMode="none">
-            <Stack.Screen name="Register" component={Register} />
+            <Stack.Screen name="Login" component={Login} />
         </Stack.Navigator>
     )
 }
